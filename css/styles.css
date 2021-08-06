@@ -2,7 +2,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196f3;
-  --primery-white-color: #ffffff;
+  --primary-white-color: #ffffff;
   --section-bg-color: #2f303a;
   --button-bg-color: #f5f4fa;
   --black-texst-color: #000000;
@@ -24,14 +24,14 @@ a {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  color: var(--primery-white-color);
+  color: var(--primary-white-color);
   background-color: var(--section-bg-color);
 }
-.prymery-button {
+.primary-button {
   font-size: 16px;
   font-weight: 700;
   line-height: 1.9;
-  color: var(--primery-white-color);
+  color: var(--primary-white-color);
   background: var(--accent-color);
   cursor: pointer;
 }
@@ -98,7 +98,7 @@ a {
 }
 .secondary-button:hover,
 .secondary-button:focus {
-  color: var(--primery-white-color);
+  color: var(--primary-white-color);
   background: var(--accent-color);
 }
 .link-nav {
@@ -133,11 +133,11 @@ a {
   color: var(--black-texst-color);
 }
 .white-texst {
-  color: var(--primery-white-color);
+  color: var(--primary-white-color);
 }
-.contacts-footer {
+.contact-footer {
   line-height: 1.7;
-  color: var(--primery-white-color);
+  color: var(--primary-white-color);
 }
 .footer,
 .hero-section {
