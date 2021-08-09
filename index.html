@@ -14,27 +14,29 @@
   </head>
   <body>
     <div class="container">
-      <header>
-      <a class="logo" href="">Web<span class="black-texst">Studio</span> </a>
-      <nav>
-        <ul>
-          <li>
+       <header >
+        <div class="main-nav">
+          <a class="logo" href="">Web<span class="black-texst">Studio</span> </a>
+      <nav >
+        <ul class="site-nav">
+          <li class="item">
             <a class="link-nav" href="./index.html">Студия</a>
           </li>
-          <li>
-            <a class="link-nav" href="./portfolio.html">Портфолио</a>
+          <li class="item">
+            <a class="link-nav" href="/portfolio.html">Портфолио</a>
           </li>
-          <li><a class="link-nav" href="">Контакты</a></li>
+          <li class="item"><a class="link-nav" href="">Контакты</a></li>
         </ul>
       </nav>
-      <ul>
-        <li>
+      <ul class="contact-title">
+        <li class="contact-item">
           <a class="contact-link" href="">info@devstudio.com</a>
         </li>
-        <li>
+        <li class="contact-item">
           <a class="contact-link" href="">+38 096 111 11 11</a>
         </li>
       </ul>
+        </div>
     </header>
     <main>
       <section class="hero-section">
@@ -42,24 +44,24 @@
         <button class="primary-button" type="button">Заказать услугу</button>
       </section>
       <section>
-        <ul>
+        <ul class="benefit-section">
           <li class="benefit">
-            <h2 class="benefit-title">Внимание к деталям</h2>
-            <p class="benefit-description">
+              <h2 class="benefit-title">Внимание к деталям</h2>
+              <p class="benefit-description">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li class="benefit">
-            <h2 class="benefit-title">Пунктуальность</h2>
-            <p class="benefit-description">
+              <h2 class="benefit-title">Пунктуальность</h2>
+              <p class="benefit-description">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li class="benefit">
-            <h2 class="benefit-title">Планирование</h2>
-            <p class="benefit-description">
+              <h2 class="benefit-title">Планирование</h2>
+               <p class="benefit-description">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
@@ -75,20 +77,20 @@
       </section>
       <section>
         <h2 class="title">Чем мы занимаемся</h2>
-        <ul>
-          <li>
+        <ul class="tittle-img">
+          <li class="title-item-img">
             <a href=""
-              ><img src="./images/box1.jpg" alt="scheme i tablet" width="370px"
+              ><img  class="img-title" src="./images/box1.jpg" alt="scheme i tablet" width="370px"
             /></a>
           </li>
-          <li>
+          <li class="title-item-img">
             <a href=""
-              ><img src="./images/box2.jpg" alt="phone i laptop" width="370px"
+              ><img  class="img-title" src="./images/box2.jpg" alt="phone i laptop" width="370px"
             /></a>
           </li>
-          <li>
+          <li class="title-item-img">
             <a href=""
-              ><img src="./images//box3.jpg" alt="tablet i bear" width="370px"
+              ><img class="img-title" src="./images//box3.jpg" alt="tablet i bear" width="370px"
             /></a>
           </li>
         </ul>
@@ -97,16 +99,16 @@
         <h2 class="title">Наша команда</h2>
         <ul class="team">
           <li class="member-team">
-            <img
+            <img class="img-team"
               src="./images/imgig.jpg"
               alt="photo Igor Demyanenko"
               width="270px"
             />
-            <h2 class="name-team">Игорь Демьяненко</h2>
+              <h2 class="name-team-member">Игорь Демьяненко</h2>
             <p class="position">Product Designer</p>
           </li>
           <li class="member-team">
-            <img
+            <img class="img-team"
               src="./images/imgol.jpg"
               alt=" photo Olga Repina"
               width="270px"
@@ -115,28 +117,30 @@
             <p class="position">Frontend Developer</p>
           </li>
           <li class="member-team">
-            <img
+            <img class="img-team"
               src="./images/imgmik.jpg"
               alt="photo Nikolay Tarasov"
               width="270px"
             />
-            <h2 class="name-team-member">Николай Тарасов</h2>
+              <h2 class="name-team-member">Николай Тарасов</h2>
             <p class="position">Marketing</p>
           </li>
           <li class="member-team">
-            <img
+            <img class="img-team"
               src="./images/imgm.jpg"
               alt="photo Mikhail Ermakov"
               width="270px"
-            />
-            <h2 class="name-team-member">Михаил Ермаков</h2>
-            <p class="position">UI Designer</p>
+            /> 
+              <h2 class="name-team-member">Михаил Ермаков</h2>
+             <p class="position">UI Designer</p>
+            
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer">
-      <a href=""
+      <div class="footer-main">
+            <a href=""
         ><span class="logo">Web<nobr class="white-texst">Studio</nobr></span></a
       >
       <address class="address-section">
@@ -160,6 +164,8 @@
           </li>
         </ul>
       </address>
+      </div>
+  
     </footer>
     </div>
   </body>
