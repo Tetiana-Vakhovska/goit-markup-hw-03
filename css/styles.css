@@ -39,7 +39,11 @@ a {
   background: var(--accent-color);
   cursor: pointer;
 }
-
+.title-section{
+  background-color: #F5F4FA;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .title {
   font-size: 36px;
   font-weight: 700;
@@ -254,24 +258,21 @@ padding-bottom: 94px;
 }
 .footer{
    background: var(--section-bg-color);
-   width: 1600px;
-   height: 252px;
-   margin: 0;
-   padding: 0;
+   padding: 60px 0;
 }
-
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .hero-section {
   background: var(--section-bg-color);
   padding: 200px 0;
   text-align: center;
 }
-.footer{
-  height: 252px;
-  width: 1200px;
-}
 .address-section {
   font-style: normal;
+  margin-top: 20px;
 }
 .footer-main{
   padding-top: 60px;
