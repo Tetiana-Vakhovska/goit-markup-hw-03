@@ -20,6 +20,8 @@ p, h1, h2, h3,h4,h5,h6{
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 a {
   text-decoration: none;
@@ -30,6 +32,7 @@ a {
   line-height: 1.36;
   color: var(--primary-white-color);
   background-color: var(--section-bg-color);
+  margin-bottom: 90px;
 }
 .primary-button {
   font-size: 16px;
@@ -38,6 +41,9 @@ a {
   color: var(--primary-white-color);
   background: var(--accent-color);
   cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 32px;
 }
 .title-section{
   background-color: #F5F4FA;
@@ -49,8 +55,7 @@ a {
   font-weight: 700;
   line-height: 1.17;
   color: var(--title-text-color);
-  display: flex;
-  justify-content: center;
+ text-align: center;
   margin-bottom: 50px;
 }
 .tittle-img{
@@ -68,9 +73,7 @@ a {
 }
 .benefit-section{
   display: flex;
-  padding-top: 94px;
-  padding-left: 0px;
-  justify-content: space-around;
+  justify-content: space-between;
   
 }
 .benefit-title {
@@ -123,7 +126,6 @@ a {
   line-height: 2;
   color: var(--title-text-color);
   font-size: 18px;
-  margin-top: 20px;
 }
 .portfolio-item-divide {
   font-size: 16px;
@@ -132,10 +134,13 @@ a {
   margin-top: 4px;
 }
 .card-content{
-  padding: 20px;
+  padding: 20px 24px;
+  border: 1px solid var(--primary-white-color) ;
+  border-top: none;
 }
 .team {
   display: flex;
+  justify-content: space-between;
 }
 .img-team{
    width: 270px;
@@ -143,22 +148,23 @@ a {
   max-width: 100%;
 }
 .member-team {
-  margin-right: 30px;
+  border-radius: 0 0 4px 4px;
 
 }
-.member-team:last-child{margin-right: 0px;}
+.about-team-member{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+   background-color: var(--primary-white-color);
+}
 .name-team-member {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.17;
   color: var(--title-text-color);
-  margin-top: 30px;
-  text-align: center;
 }
 .position {
   font-size: 16px;
-  margin-bottom: 30px;
-  text-align: center;
 }
 
 .link-nav {
@@ -174,6 +180,7 @@ a {
   display: flex;
   margin: 0;
   padding: 0;
+  margin-left: 93px;
 }
 .item{
   margin-right: 50px;
@@ -192,10 +199,9 @@ a {
   color: var(---title-text-color);
   background: var(--button-bg-color);
   cursor: pointer;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  border: 4px solid transparent;
+  padding: 6px 22px;
+  border: none;
+  border-radius: 4px;
 }
 .secondary-button:hover,
 .secondary-button:focus {
@@ -206,6 +212,7 @@ a {
   display: flex;
   justify-content: center;
 padding-bottom: 34px;
+padding-top: 94px;
 }
 .secondary-button-item{
   margin-right: 8px;
@@ -214,20 +221,14 @@ padding-bottom: 34px;
   margin-right: 0;}
   .contact-title{
     display: flex;
-    
+    margin-left: auto;
   }
-.contact-item{
+  .contact-item:not(:last-child){
     margin-right: 50px;
-  }
-  .contact-item:last-child{
-    margin-right: 0px;
   }
   .main-nav{
 display: flex;
 align-items: center;
-justify-content: space-between;
-padding-bottom: 94px;
-outline-color: #ECECEC;
   }
 .contact-link {
   font-size: 14px;
@@ -256,9 +257,8 @@ outline-color: #ECECEC;
 .contact-footer {
   line-height: 1.7;
   color: var(--primary-white-color);
-  margin-bottom: 9px;
-
 }
+.contact-footer:not(:last-child){margin-bottom: 9px;}
 .footer{
    background: var(--section-bg-color);
    padding: 60px 0;
@@ -285,7 +285,7 @@ outline-color: #ECECEC;
 .container{
   width: 1200px;
   margin: 0 auto;
-  padding: 0 0 15px 15px;
+  padding: 0 15px;
 
  
 }
